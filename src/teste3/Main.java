@@ -10,6 +10,7 @@ public class Main {
 		Curso curso = new Curso();
 		
 		turma1.setAluno(aluno);//compossição de obj
+		
 		turma1.getAluno().setNome("Charles");
 		turma1.getAluno().setMatricula(141414);
 		turma1.getAluno().setNota1(9.0);
