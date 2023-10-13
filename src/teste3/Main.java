@@ -25,7 +25,7 @@ public class Main {
 		turma1.getCurso().setNomeDoCurso("Java");
 		turma1.getCurso().setCodigoDoCurso(2222);
 		
-		turma1.resultShow();
+		turma1.resultShow();//saida
 		
 	}
 }
