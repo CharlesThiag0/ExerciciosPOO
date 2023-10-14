@@ -1,9 +1,15 @@
-package teste3;
+package mediaTurma;
 
 public class Curso {
 	//curso - nomedocurso codigo
 	private String nomeDoCurso;
 	private int codigoDoCurso;
+	
+	//construtor
+	public Curso (String nomeDoCurso, int codigoDoCurso) {
+		this.nomeDoCurso = nomeDoCurso;
+		this.codigoDoCurso = codigoDoCurso;
+	}
 	
 	//getters
 	public String getNomeDoCurso() {

@@ -1,4 +1,4 @@
-package teste3;
+package mediaTurma;
 
 public class Aluno {
 	//nome matricula nota1 nota2
@@ -6,6 +6,14 @@ public class Aluno {
 	private int matricula;
 	private double nota1;
 	private double nota2;
+	
+	//conmstrutor
+	public Aluno (String nome, int matricula ,double nota1 ,double nota2) {
+		this.nome = nome;
+		this.matricula = matricula;
+		this.nota1 = nota1;
+		this.nota2 = nota2;
+	}
 	
 	//getters
 	public String getNome() {

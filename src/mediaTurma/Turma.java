@@ -1,13 +1,10 @@
-package teste3;
+package mediaTurma;
 
 public class Turma {
 	//aluno,disciplina,curso
 	 private Aluno aluno;
 	 private Disciplina disciplina;
 	 private Curso curso;
-	
-	 //desafio construtores
-	 
 	 
 	//getters
 	public Aluno getAluno() {

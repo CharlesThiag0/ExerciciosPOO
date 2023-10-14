@@ -1,17 +1,25 @@
-package teste;
+package bytebank;
 
 public class Cliente {
-	private String cpf;
+	//nome, cpf, profissao
 	private String nome;
+	private String cpf;
 	private String profissao;
 	
-	//getters
-	public String getCpf() {
-		return this.cpf;
+	//construtor
+	public Cliente (String nome, String cpf, String profissao) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.profissao = profissao;
 	}
 	
+	//getters
 	public String getNome() {
 		return this.nome;
+	}
+	
+	public String getCpf() {
+		return this.cpf;
 	}
 	
 	public String getProfissao() {
@@ -19,12 +27,12 @@ public class Cliente {
 	}
 	
 	//setters
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-	
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+	
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 	
 	public void setProfissao(String profissao) {
