@@ -7,7 +7,7 @@ public class Aluno {
 	private double nota1;
 	private double nota2;
 	
-	//conmstrutor
+	//construtor
 	public Aluno (String nome, int matricula ,double nota1 ,double nota2) {
 		this.nome = nome;
 		this.matricula = matricula;
