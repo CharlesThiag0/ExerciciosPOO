@@ -5,7 +5,7 @@ public class Cliente {
 	private String nome;
 	private String cpf;
 	private Endereco endereco;
-	
+	//construtor
 	public Cliente (String nome, String cpf, Endereco endereco) {
 		this.nome = nome;
 		this.cpf = cpf;
