@@ -1,7 +1,7 @@
 package LojaPedidos;
 
 public class Cliente {
-	
+	//atributos
 	private String nome;
 	private String cpf;
 	private Endereco endereco;
