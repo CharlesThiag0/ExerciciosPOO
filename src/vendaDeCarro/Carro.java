@@ -6,12 +6,14 @@ public class Carro {
 	private String modelo;
 	private int ano;
 	private double valor;
+	private double desconto;
 	
-	public Carro (String marca, String modelo, int ano, double valor) {
+	public Carro (String marca, String modelo, int ano, double valor, double desconto) {
 		this.marca = marca;
 		this.modelo = modelo;
 		this.ano = ano;
 		this.valor = valor;
+		this.desconto = desconto;
 	}
 	
 	public String getMarca() {
@@ -30,6 +32,9 @@ public class Carro {
 		return this.valor;
 	}
 	
+	public double getDesconto() {
+		return this.desconto;
+	}
 	
 	public void setMarca(String marca) {
 		this.marca = marca;
@@ -45,6 +50,10 @@ public class Carro {
 	
 	public void setValor(double valor) {
 		this.valor = valor;
+	}
+	
+	public void setDesconto(double desconto) {
+		this.desconto = desconto;
 	}
 	
 }
