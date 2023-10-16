@@ -24,7 +24,7 @@ public class Cliente {
 		return this.idade;
 	}
 	
-	public void seNome(String nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
 	
