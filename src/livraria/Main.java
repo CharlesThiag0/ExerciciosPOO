@@ -26,10 +26,7 @@ public class Main {
 	
 	biblioteca2.calcularTroco();
 	biblioteca2.resultShow();
-	
-	
-	
-	
+
 	}
 	
 }
