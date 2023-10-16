@@ -64,7 +64,7 @@ public class Biblioteca {
 		System.out.printf("Valor recebi de : %.2f, Troco de : %.2f%n",
 				this.caixa.getTroco(), calcularTroco());
 		System.out.println("----------------------------------------------");
-		System.out.printf("Entrega para a %s em %s, cep : %d",
+		System.out.printf("Entrega para a %s em %s, cep : %d%n",
 				this.endereco.getRua(), this.endereco.getCidade(), this.endereco.getCep());
 		
 	}
