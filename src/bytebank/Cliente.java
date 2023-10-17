@@ -31,10 +31,6 @@ public class Cliente {
 		this.nome = nome;
 	}
 	
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-	
 	public void setProfissao(String profissao) {
 		this.profissao = profissao;
 	}

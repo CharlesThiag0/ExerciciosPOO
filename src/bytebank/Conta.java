@@ -32,6 +32,10 @@ public class Conta {
 	}
 	
 	public void setAgencia(int agencia) {
+		if(agencia <= 0) {
+			System.out.println("Agencia não pode conter valor negativo");
+			return;
+		}
 		this.agencia = agencia;
 	}
 	
