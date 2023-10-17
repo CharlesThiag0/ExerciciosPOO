@@ -11,8 +11,8 @@ public class Main {
 		//Conta conta2 = new Conta(thiago, 1515, 10);
 	
 		conta1.setTitular(charles);
-		conta1.resultShow();
-		conta1.setAgencia(-1313);
+		//conta1.resultShow();
+		//conta1.setAgencia(-1313);
 		
 		/*if (conta1.depositar(1000)) {
 			conta1.sucesso();

@@ -11,6 +11,8 @@ public class Conta {
 		this.titular = titular;
 		this.agencia = agencia;
 		this.saldo = saldo;
+		System.out.printf("Estamos criando sua conta.. Agencia definida : %d Saldo inicial : %.2f",
+				this.agencia, this.saldo);
 	}
 	
 	//getters
