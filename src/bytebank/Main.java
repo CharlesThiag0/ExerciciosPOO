@@ -7,10 +7,12 @@ public class Main {
 		Cliente charles = new Cliente("Charles", "333.333.333-33", "Futuro Back-End");
 		Conta conta1 = new Conta(charles, 1313, 1000);
 		
-		//Cliente thiago = new Cliente("Thiago", "777.777.777-77", "Futuro Devensolvedor");
-		//Conta conta2 = new Conta(thiago, 1515, 10);
+		Cliente thiago = new Cliente("Thiago", "777.777.777-77", "Futuro Devensolvedor");
+		Conta conta2 = new Conta(thiago, 1515, 10);
 	
 		conta1.setTitular(charles);
+		System.out.println(Conta.getTotalDeContas());
+
 		//conta1.resultShow();
 		//conta1.setAgencia(-1313);
 		

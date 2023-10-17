@@ -5,13 +5,16 @@ public class Conta {
 	private Cliente titular;
 	private int agencia;
 	private double saldo;
+	private static int totalDeContas;
 	
 	//construtor
 	public Conta (Cliente titular, int agencia, double saldo) {
+		Conta.totalDeContas++;
+		//System.out.println("Total de contas criadas : " + Conta.totalDeContas);
 		this.titular = titular;
 		this.agencia = agencia;
 		this.saldo = saldo;
-		System.out.printf("Estamos criando sua conta.. Agencia definida : %d Saldo inicial : %.2f",
+		System.out.printf("Estamos criando sua conta.. Agencia definida : %d Saldo inicial : %.2f%n",
 				this.agencia, this.saldo);
 	}
 	
@@ -26,6 +29,10 @@ public class Conta {
 	
 	public double getSaldo() {
 		return this.saldo;
+	}
+	
+	public static int getTotalDeContas() {
+		return Conta.totalDeContas;
 	}
 	
 	//setters
